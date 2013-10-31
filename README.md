@@ -1,4 +1,4 @@
 samples
 =======
 
-Sample code to share with others
+Code samples to share with others
