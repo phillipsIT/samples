@@ -29,10 +29,6 @@ html {
     -moz-border-radius:50%;
     border-radius:50%;
     
-    
-    text-shadow:0px 1px 1px #A03F16;
-    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
-    
     margin-left:auto;
 	margin-right:auto;
 	
@@ -65,10 +61,6 @@ html {
     -moz-border-radius:50%;
     border-radius:50%;
     
-    
-    text-shadow:0px 1px 1px #A03F16;
-    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
-    
     margin-left:auto;
 	margin-right:auto;
 	
@@ -76,6 +68,21 @@ html {
     -moz-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 9px #fff;
     box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 9px #fff;
     
+}
+
+.header {
+	text-shadow:0px 1px 1px #A03F16;
+    font-family:"Oswald", "Trebuchet MS", sans-serif;
+    
+    text-align:center;
+    vertical-align:middle;
+    font-size:300px;
+    color:#fff;
+    
+    margin-left:auto;
+	margin-right:auto;
+	
+	opacity: 0.2;
 }
 
 .you span {
@@ -86,7 +93,9 @@ html {
     text-align:center;
     vertical-align:middle;
     font-size:38px;
-    color:#fff
+    color:#fff;
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
 }
 
 .me span {
@@ -97,7 +106,9 @@ html {
     text-align:center;
     vertical-align:middle;
     font-size:38px;
-    color:#fff
+    color:#fff;
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
 }
 
 @keyframes me{
