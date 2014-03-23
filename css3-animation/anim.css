@@ -78,6 +78,7 @@ html {
     vertical-align:middle;
     font-size:300px;
     color:#fff;
+    white-space:nowrap;
     
     margin-left:auto;
 	margin-right:auto;
