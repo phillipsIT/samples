@@ -1,0 +1,139 @@
+
+html { 
+  background: url(images/clouds.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.me {
+    -webkit-animation:me 15s ease-in-out;
+    -moz-animation:me 15s ease-in-out;
+    animation:me 15s ease-in-out;
+    
+    -webkit-animation-iteration-count:infinite;
+    -moz-iteration-count:infinite;
+    animation-iteration-count:infinite;
+    
+    -webkit-animation-direction:alternate;
+    -moz-animation-direction:alternate;
+    animation-direction:alternate;
+    
+    width:400px;
+    height:400px;
+    position:absolute;
+    
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    
+    
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    
+    margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.you {
+    -webkit-animation:you 20s ease-in-out;
+    -moz-animation:you 10s ease-in-out;
+    animation:you 20s ease-in-out;
+    
+    -webkit-animation-iteration-count:infinite;
+    -moz-iteration-count:infinite;
+    animation-iteration-count:infinite;
+    
+    -webkit-animation-direction:alternate;
+    -moz-animation-direction:alternate;
+    animation-direction:alternate;
+    
+    width:400px;
+    height:400px;
+    position:absolute;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    
+    
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    
+    margin-left:auto;
+	margin-right:auto;
+}
+
+.you span {
+	display:table-cell;
+    width:360px;
+    height:360px;
+    padding:20px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:38px;
+    color:#fff
+}
+
+.me span {
+	display:table-cell;
+    width:360px;
+    height:360px;
+    padding:20px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:38px;
+    color:#fff
+}
+
+@keyframes me{
+
+    0%   {background:red; left:20px; top:20px; transform: scale(1) rotate(0); opacity:0.3;}
+	25%  {background:yellow; left:200px; top:20px;}
+	50%  {background:blue; left:100%; top:200px; transform: scale(0.5) rotate(180deg); opacity:0.75;}
+	75%  {background:green; left:600px; top:200px;}
+	100% {background:red; left:960px; top:20px; transform: scale(1) rotate(360deg);}
+}
+@-webkit-keyframes me{
+ 
+    0%   {background:red; left:20px; top:20px; opacity:0.3; -webkit-transform: scale(1) rotate(0);}
+	25%  {background:yellow; left:200px; top:20px;}
+	50%  {background:blue; left:200px; top:200px; opacity:0.75; -webkit-transform: scale(0.5) rotate(180deg);}
+	75%  {background:green; left:600px; top:200px;}
+	100% {background:red; left:960px; top:20px;  -webkit-transform: scale(1) rotate(360deg);}
+}
+@-moz-keyframes me{
+   
+    0%   {background:red; left:20px; top:20px; -moz-transform: scale(1) rotate(0); opacity:0.3;}
+	25%  {background:yellow; left:200px; top:20px;}
+	50%  {background:blue; left:200px; top:200px; -moz-transform: scale(0.5) rotate(180deg); opacity:0.75;}
+	75%  {background:green; left:600px; top:200px;}
+	100% {background:red; left:960px; top:20px; -moz-transform: scale(1) rotate(360deg);}
+}
+
+@keyframes you{
+
+    0%   {background:blue; left:200px; top:200px; transform: scale(1) rotate(0);}
+	25%  {background:red; left:600px; top:200px;}
+	50%  {background:yellow; left:-10px; top:200px; transform: scale(0.5) rotate(180deg); opacity:0.75;}
+	75%  {background:green; left:400px; top:200px;}
+	100% {background:red; left:200px; top:20px; transform: scale(1) rotate(360deg); opacity:0.3;}
+}
+@-webkit-keyframes you{
+    
+    0%   {background:blue; left:200px; top:200px;  -webkit-transform: scale(1) rotate(0);}
+	25%  {background:red; left:600px; top:200px;}
+	50%  {background:yellow; left:-10px; top:200px; opacity:0.75; -webkit-transform: scale(0.5) rotate(180deg);}
+	75%  {background:green; left:400px; top:200px;}
+	100% {background:red; left:200px; top:20px; opacity:0.3; -webkit-transform: scale(1) rotate(360deg);}
+}
+@-moz-keyframes you{
+
+    0%   {background:blue; left:200px; top:200px; -moz-transform: scale(1) rotate(0);}
+	25%  {background:red; left:600px; top:200px;}
+	50%  {background:yellow; left:-10px; top:200px; -moz-transform: scale(0.5) rotate(180deg); opacity:0.75;}
+	75%  {background:green; left:400px; top:200px;}
+	100% {background:red; left:200px; top:20px; -moz-transform: scale(1) rotate(360deg); opacity:0.3;}
+}
