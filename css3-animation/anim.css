@@ -8,7 +8,7 @@ html {
 }
 
 
-.me {
+#me {
     -webkit-animation:me 15s ease-in-out;
     -moz-animation:me 15s ease-in-out;
     animation:me 15s ease-in-out;
@@ -41,7 +41,7 @@ html {
 	
 }
 
-.you {
+#you {
     -webkit-animation:you 20s ease-in-out;
     -moz-animation:you 10s ease-in-out;
     animation:you 20s ease-in-out;
@@ -70,7 +70,7 @@ html {
     
 }
 
-.header {
+#header {
 	text-shadow:0px 1px 1px #A03F16;
     font-family:"Oswald", "Trebuchet MS", sans-serif;
     
@@ -86,7 +86,7 @@ html {
 	opacity: 0.2;
 }
 
-.you span {
+#you span {
 	display:table-cell;
     width:360px;
     height:360px;
@@ -99,7 +99,7 @@ html {
     font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
 }
 
-.me span {
+#me span {
 	display:table-cell;
     width:360px;
     height:360px;
@@ -118,7 +118,7 @@ html {
 	25%  {background:yellow; left:200px; top:20px;}
 	50%  {background:blue; left:100%; top:200px; transform: scale(0.5) rotate(180deg); opacity:0.75;}
 	75%  {background:green; left:600px; top:200px;}
-	100% {background:red; left:960px; top:20px; transform: scale(1) rotate(360deg);}
+	100% {background:red; left:720px; top:20px; transform: scale(1) rotate(360deg);}
 }
 @-webkit-keyframes me{
  
@@ -126,7 +126,7 @@ html {
 	25%  {background:yellow; left:200px; top:20px;}
 	50%  {background:blue; left:200px; top:200px; opacity:0.75; -webkit-transform: scale(0.5) rotate(180deg);}
 	75%  {background:green; left:600px; top:200px;}
-	100% {background:red; left:960px; top:20px;  -webkit-transform: scale(1) rotate(360deg);}
+	100% {background:red; left:720px; top:20px;  -webkit-transform: scale(1) rotate(360deg);}
 }
 @-moz-keyframes me{
    
@@ -134,7 +134,7 @@ html {
 	25%  {background:yellow; left:200px; top:20px;}
 	50%  {background:blue; left:200px; top:200px; -moz-transform: scale(0.5) rotate(180deg); opacity:0.75;}
 	75%  {background:green; left:600px; top:200px;}
-	100% {background:red; left:960px; top:20px; -moz-transform: scale(1) rotate(360deg);}
+	100% {background:red; left:720px; top:20px; -moz-transform: scale(1) rotate(360deg);}
 }
 
 @keyframes you{
