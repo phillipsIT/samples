@@ -7,6 +7,9 @@ html {
   background-size: cover;
 }
 
+body {
+	font-size:100%;
+} 
 
 #me {
     -webkit-animation:me 15s ease-in-out;
@@ -35,10 +38,7 @@ html {
 	-webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 9px #fff;
     -moz-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 9px #fff;
     box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 9px #fff;
-    
-	
-	
-	
+    	
 }
 
 #you {
@@ -77,6 +77,7 @@ html {
     text-align:center;
     vertical-align:middle;
     font-size:300px;
+    font-size:18vw;
     color:#fff;
     white-space:nowrap;
     
